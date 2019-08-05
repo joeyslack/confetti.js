@@ -111,8 +111,8 @@ var confetti = {
 				canvas.width = window.innerWidth;
 				canvas.height = window.innerHeight;
 			}, true);
-			context = canvas.getContext("2d");
 		}
+		context = canvas.getContext("2d");
 		var count = confetti.maxCount;
 		if (min) {
 			if (max) {
